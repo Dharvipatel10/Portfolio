@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 1;
 }
 
 .navlist li{
@@ -511,12 +512,15 @@ section{
 }
 
 .main-text{
+    margin: auto;
     padding-top: 100px;
     padding-bottom: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
     width: 100%;
 }
+
+
 
 .main-text h2{
     font-size: 60px;
@@ -537,7 +541,9 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     justify-content: center;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 70px;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .row{
@@ -549,8 +555,8 @@ section{
 
 .row img{
     width: 110%;
-    height: 110%;
-    margin-left: 40px;
+    height: 120%;
+    /* margin-left: 40px; */
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
