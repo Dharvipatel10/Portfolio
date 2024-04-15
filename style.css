@@ -55,7 +55,7 @@
     width: 30%;
 }
 
-.icons .fa-brands{
+.icons .fa-brands, .fa-solid, .fa-regular{
     color: #fff;
     font-size: 1.7rem;
 }
@@ -125,7 +125,7 @@ button:nth-child(2):hover{
     color: #252C2D;
 }
 
-.icons .fa-brands:hover{
+.icons .fa-brands:hover, .fa-solid:hover, .fa-regular:hover{
     cursor: pointer;
     background: linear-gradient(#fff, #FEE948);
     -webkit-background-clip: text;
